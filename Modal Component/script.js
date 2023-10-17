@@ -1,5 +1,4 @@
 "use strict";
-
 const subBtn = document.getElementById("submit");
 const closeBtn = document.getElementById("close-btn");
 const modal = document.getElementById("modal");
@@ -9,6 +8,7 @@ const closeModal = function () {
   modal.classList.add("hidden");
   overlay.classList.add("hidden");
 };
+
 const OpenModal = function () {
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
